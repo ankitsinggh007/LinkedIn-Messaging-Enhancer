@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react-jsx", // For React 17 and later
+    "strict": true,
+    "lib": ["dom", "esnext"],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*", "entrypoints/**/*", "components/**/*"] // Include components directory
+}
