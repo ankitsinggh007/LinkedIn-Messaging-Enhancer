@@ -1,39 +1,45 @@
-# LinkedIn Messaging Enhancer
+# LinkedIn Messaging Enhancement Extension
 
-This project enhances the LinkedIn messaging experience by integrating an AI-powered modal that assists users in generating responses to messages. The extension injects an AI icon into LinkedIn's message input area, allowing users to easily interact with the AI.
+## **Overview**
 
-## Features
+This project is a Chrome extension that enhances LinkedIn's messaging functionality by integrating an AI icon that provides prompt suggestions in a user-friendly modal. The extension is built using the **WXT Framework**, **React**, **TypeScript**, and **Tailwind CSS**.
 
-1. **AI Icon Injection**: The AI icon appears when the user focuses on the LinkedIn message input field.
-2. **Icon Disappearance**: The icon disappears when the input field is no longer focused.
-3. **Modal Display**: A center-aligned modal is displayed when the icon is clicked.
-4. **Close Modal**: Clicking anywhere outside the modal will close it.
-5. **User Input**: The user can enter commands in the modal's input field.
-6. **Dummy Response Generation**: Clicking the “Generate” button displays a dummy response:  
-   `Thank you for the opportunity! If you have any more questions or if there's anything else I can help you with, feel free to ask.`
-7. **Insert Message**: The generated static text can be inserted into the LinkedIn message input field when the "Insert" button is clicked.
-8. **Non-functional Regenerate Button**: The “Regenerate” button is included but is non-functional.
+## **Required Tasks**
 
-## Technologies Used
+The Chrome extension performs the following tasks:
 
-- React
-- TypeScript
-- Tailwind CSS
-- WXT Framework
+1. **AI Icon Display**: The AI icon appears when the user focuses on the LinkedIn message input field.
+2. **Icon Disappearance**: The icon disappears when the input field loses focus.
+3. **Modal Display**: A center-aligned modal is displayed when the AI icon is clicked.
+4. **Modal Closure**: Clicking outside the modal closes it.
+5. **Input Field Functionality**: The user can enter commands in the modal's input field.
+6. **Generate Button Response**: Clicking the “Generate” button displays the dummy response: 
+7. **Insert Button Functionality**: Clicking the insert button inserts the generated static text into the LinkedIn message input field.
 
-## Installation
+## **Constraints**
 
-To set up the project locally, follow these steps:
+- The project utilizes the **WXT Framework** for building the extension.
+- **React** with **TypeScript** is employed.
+- **Tailwind CSS** is used for styling.
+- No third-party libraries for UI or icons are utilized; icons are exported as SVG from Figma.
+- Only the required tasks are implemented. Extra features were avoided to maintain focus on the main objectives.
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```bash
-2.Navigate to the project directory:
-```bash
-    cd linkedin-message-enhancer
-    ```bash
- 3.Install dependencies
- ```bash
-    npm install
-```bash
+## **Demo Video**
+
+A short video demonstrating the tasks performed in the extension can be found below. The video showcases the core functionalities of the extension without requiring any downloads:
+
+[Watch the demonstration video](https://www.loom.com/share/89500220ecc7437e859dd42a08ced02f?sid=7101a1e0-dd2d-42d8-b379-000a519adde1)
+
+## **Installation**
+
+To install the extension, follow these steps:
+1. Clone the repository.
+2. Navigate to the Chrome Extensions page (`chrome://extensions`).
+3. Enable "Developer mode" and click on "Load unpacked".
+4. Select the project directory to load the extension.
+
+## **Conclusion**
+
+This project demonstrates the integration of an AI-driven assistant within LinkedIn's messaging platform, enhancing user experience by providing quick responses and suggestions.
+
+Feel free to reach out for any queries or further information regarding this project.
